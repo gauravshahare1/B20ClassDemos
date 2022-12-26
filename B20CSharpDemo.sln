@@ -25,9 +25,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValueTypesReferenceTypes", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NullableTypeDemo", "NullableTypeDemo\NullableTypeDemo.csproj", "{0B414719-E549-4B49-9A81-7CB44B212A92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodsDemo", "MethodsDemo\MethodsDemo.csproj", "{DABD4D6B-3B99-424A-A322-70748BB11518}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodsDemo", "MethodsDemo\MethodsDemo.csproj", "{DABD4D6B-3B99-424A-A322-70748BB11518}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodParametersDemo", "MethodParametersDemo\MethodParametersDemo.csproj", "{EDEB95AB-62FF-4293-AB13-B92E9E0E22EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodParametersDemo", "MethodParametersDemo\MethodParametersDemo.csproj", "{EDEB95AB-62FF-4293-AB13-B92E9E0E22EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OptionalParameterDemo", "OptionalParameterDemo\OptionalParameterDemo.csproj", "{C81CDC8B-4C12-4A66-BA49-BA1F8ED5C80F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwapTwoNumbers", "SwapTwoNumbers\SwapTwoNumbers.csproj", "{CA6002DE-67EA-4AE2-903F-6BD54BA0F8A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +91,14 @@ Global
 		{EDEB95AB-62FF-4293-AB13-B92E9E0E22EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDEB95AB-62FF-4293-AB13-B92E9E0E22EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDEB95AB-62FF-4293-AB13-B92E9E0E22EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81CDC8B-4C12-4A66-BA49-BA1F8ED5C80F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81CDC8B-4C12-4A66-BA49-BA1F8ED5C80F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81CDC8B-4C12-4A66-BA49-BA1F8ED5C80F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81CDC8B-4C12-4A66-BA49-BA1F8ED5C80F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA6002DE-67EA-4AE2-903F-6BD54BA0F8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA6002DE-67EA-4AE2-903F-6BD54BA0F8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA6002DE-67EA-4AE2-903F-6BD54BA0F8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA6002DE-67EA-4AE2-903F-6BD54BA0F8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

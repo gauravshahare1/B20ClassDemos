@@ -17,13 +17,29 @@
         //PrintA(ref name);
         //Console.WriteLine(name); // PrintA
 
-        int a = 10, b = 5, add, sub, mul, div;
+        //int a = 10, b = 5, add, sub, mul, div;
 
-        Operation(a, b, out add, out sub, out mul, out div);
-        Console.WriteLine($"Addition : {add}");
-        Console.WriteLine($"Substraction : {sub}");
-        Console.WriteLine($"Multiplication : {mul}");
-        Console.WriteLine($"Division : {div}");
+        //Operation(a, b, out add, out sub, out mul, out div);
+        //Console.WriteLine($"Addition : {add}");
+        //Console.WriteLine($"Substraction : {sub}");
+        //Console.WriteLine($"Multiplication : {mul}");
+        //Console.WriteLine($"Division : {div}");
+
+        int[] n1 = new int[] { 10, 20, 30 };
+        PrintSum(n1); // 60
+
+        PrintSum(new int[] { 10, 20, 30 });
+
+        int[] n2 = null;
+        PrintSum(n2); // Empty Array
+
+        PrintSum(null);
+
+        PrintSum(10, 20, 30, 40); // 100
+
+        PrintSum(); // Empty Array
+
+        PrintSum1(1,10,20,30);
 
         Console.ReadLine();
     }
@@ -38,12 +54,33 @@
     //    // name = "PrintA";
     //}
 
-    static void Operation(int a, int b, 
+    static void Operation(int a, int b,
         out int add, out int sub, out int mul, out int div)
     {
         add = a + b;
         sub = a - b;
         mul = a * b;
         div = a / b;
+    }
+
+    static void PrintSum(params int[] numbers)
+    {
+        if (numbers != null && numbers.Length > 0)
+        {
+            int sum = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                sum += numbers[i];
+            }
+            Console.WriteLine($"Sum : {sum}");
+        }
+        else
+        {
+            Console.WriteLine("Empty Array");
+        }
+    }
+
+    static void PrintSum1(int a, int b, params int[] numbers)
+    { 
     }
 }
