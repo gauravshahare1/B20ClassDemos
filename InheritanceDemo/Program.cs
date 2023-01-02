@@ -41,13 +41,13 @@
         //Employee e2 = (Employee)new Person();
 
         Person p1 = new Person() { FirstName = "Anil", LastName = "Rathod"};
-        p1.PrintFullName();
+        p1.PrintFullName(); // Person class PrintFullName()
 
         Employee e1 = new Employee() { FirstName = "Anil", LastName = "Rathod" };
-        e1.PrintFullName();
+        e1.PrintFullName(); // Employee class PrintFullName()
 
         Person p2 = new Employee() { FirstName = "Anil", LastName = "Rathod" };
-        p2.PrintFullName(); // Person class method
+        p2.PrintFullName(); // Person class PrintFullName()
 
         Console.ReadLine();
     }
