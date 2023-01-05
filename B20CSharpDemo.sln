@@ -47,11 +47,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InheritanceWithConstructorD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverridingDemo", "MethodOverridingDemo\MethodOverridingDemo.csproj", "{135ED8FC-B310-431E-B8D5-C2ECF429B4E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverridingScenarioDemo", "MethodOverridingScenarioDemo\MethodOverridingScenarioDemo.csproj", "{0A7ED346-E39C-41FF-BF0D-154996E48FC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverridingScenarioDemo", "MethodOverridingScenarioDemo\MethodOverridingScenarioDemo.csproj", "{0A7ED346-E39C-41FF-BF0D-154996E48FC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethodOverloadingDemo", "MethodOverloadingDemo\MethodOverloadingDemo.csproj", "{CA1C8D25-4953-4CB7-969A-1B3F8C7AB801}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethodOverloadingDemo", "MethodOverloadingDemo\MethodOverloadingDemo.csproj", "{CA1C8D25-4953-4CB7-969A-1B3F8C7AB801}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverloadingDemo", "OperatorOverloadingDemo\OperatorOverloadingDemo.csproj", "{A5CAFE72-0D7F-4A8F-B376-CC2DFDD31C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OperatorOverloadingDemo", "OperatorOverloadingDemo\OperatorOverloadingDemo.csproj", "{A5CAFE72-0D7F-4A8F-B376-CC2DFDD31C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DoubtsDemo", "DoubtsDemo\DoubtsDemo.csproj", "{43D37A7B-BA21-4D93-AFA5-C19FE495B5A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,6 +161,10 @@ Global
 		{A5CAFE72-0D7F-4A8F-B376-CC2DFDD31C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5CAFE72-0D7F-4A8F-B376-CC2DFDD31C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5CAFE72-0D7F-4A8F-B376-CC2DFDD31C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43D37A7B-BA21-4D93-AFA5-C19FE495B5A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43D37A7B-BA21-4D93-AFA5-C19FE495B5A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43D37A7B-BA21-4D93-AFA5-C19FE495B5A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43D37A7B-BA21-4D93-AFA5-C19FE495B5A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
