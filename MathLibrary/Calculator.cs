@@ -1,11 +1,9 @@
 ﻿
-namespace Library1
+namespace Library1;
+public class Calculator
 {
-    public class Calculator
+    public int Add(int a, int b)
     {
-        public int Add(int a, int b)
-        {
-            return a + b;
-        }
+        return a + b;
     }
 }

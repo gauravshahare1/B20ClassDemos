@@ -1,10 +1,11 @@
 ﻿
-using Library1;
+// using Library2;
 
 public class MathOperations
 {
     public void Add()
     {
-        Calculator c1 = new Calculator();
+        Library2.Calculator c1 = new Library2.Calculator();
+        WriteLine();
     }
 }
