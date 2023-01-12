@@ -71,11 +71,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PropertyDemo", "PropertyDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndexerDemo", "IndexerDemo\IndexerDemo.csproj", "{37D345B5-D344-4B89-98AC-63BEBDE91EC6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SealedKeywordDemo", "SealedKeywordDemo\SealedKeywordDemo.csproj", "{DD0FCD4F-A4A1-4F72-A840-5B92D041CE8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SealedKeywordDemo", "SealedKeywordDemo\SealedKeywordDemo.csproj", "{DD0FCD4F-A4A1-4F72-A840-5B92D041CE8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstractKeywordDemo", "abstractKeywordDemo\abstractKeywordDemo.csproj", "{6275F405-2750-4FC2-BC0C-71DF08D6873F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractKeywordDemo", "abstractKeywordDemo\abstractKeywordDemo.csproj", "{6275F405-2750-4FC2-BC0C-71DF08D6873F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "abstractKeywordExample", "abstractKeywordExample\abstractKeywordExample.csproj", "{2E0858E9-3B97-47F4-AE17-A1C8AE41B391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractKeywordExample", "abstractKeywordExample\abstractKeywordExample.csproj", "{2E0858E9-3B97-47F4-AE17-A1C8AE41B391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleClassInheritanceDemo", "MultipleClassInheritanceDemo\MultipleClassInheritanceDemo.csproj", "{4AE821BB-1EB8-4222-9105-033C15FE01A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{767B839B-D56B-442D-8877-51C87C9CDB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleClassInheritanceSolved", "MultipleClassInheritanceSolved\MultipleClassInheritanceSolved.csproj", "{35207355-19A1-4E4A-9B5B-0E818333BEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaceabstractclassScenarioDemo", "interfaceabstractclassScenarioDemo\interfaceabstractclassScenarioDemo.csproj", "{D1349500-9F17-4C9A-A77F-2678DC85D86B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -231,6 +239,22 @@ Global
 		{2E0858E9-3B97-47F4-AE17-A1C8AE41B391}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E0858E9-3B97-47F4-AE17-A1C8AE41B391}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E0858E9-3B97-47F4-AE17-A1C8AE41B391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AE821BB-1EB8-4222-9105-033C15FE01A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AE821BB-1EB8-4222-9105-033C15FE01A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AE821BB-1EB8-4222-9105-033C15FE01A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AE821BB-1EB8-4222-9105-033C15FE01A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{767B839B-D56B-442D-8877-51C87C9CDB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{767B839B-D56B-442D-8877-51C87C9CDB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{767B839B-D56B-442D-8877-51C87C9CDB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{767B839B-D56B-442D-8877-51C87C9CDB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35207355-19A1-4E4A-9B5B-0E818333BEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35207355-19A1-4E4A-9B5B-0E818333BEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35207355-19A1-4E4A-9B5B-0E818333BEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35207355-19A1-4E4A-9B5B-0E818333BEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
