@@ -77,13 +77,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractKeywordDemo", "abst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "abstractKeywordExample", "abstractKeywordExample\abstractKeywordExample.csproj", "{2E0858E9-3B97-47F4-AE17-A1C8AE41B391}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleClassInheritanceDemo", "MultipleClassInheritanceDemo\MultipleClassInheritanceDemo.csproj", "{4AE821BB-1EB8-4222-9105-033C15FE01A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleClassInheritanceDemo", "MultipleClassInheritanceDemo\MultipleClassInheritanceDemo.csproj", "{4AE821BB-1EB8-4222-9105-033C15FE01A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{767B839B-D56B-442D-8877-51C87C9CDB43}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfaceDemo", "InterfaceDemo\InterfaceDemo.csproj", "{767B839B-D56B-442D-8877-51C87C9CDB43}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleClassInheritanceSolved", "MultipleClassInheritanceSolved\MultipleClassInheritanceSolved.csproj", "{35207355-19A1-4E4A-9B5B-0E818333BEA6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultipleClassInheritanceSolved", "MultipleClassInheritanceSolved\MultipleClassInheritanceSolved.csproj", "{35207355-19A1-4E4A-9B5B-0E818333BEA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "interfaceabstractclassScenarioDemo", "interfaceabstractclassScenarioDemo\interfaceabstractclassScenarioDemo.csproj", "{D1349500-9F17-4C9A-A77F-2678DC85D86B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "interfaceabstractclassScenarioDemo", "interfaceabstractclassScenarioDemo\interfaceabstractclassScenarioDemo.csproj", "{D1349500-9F17-4C9A-A77F-2678DC85D86B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumDemo", "EnumDemo\EnumDemo.csproj", "{81D30DBE-293F-45D0-9A4A-63549C66DAF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionDemo", "ExceptionDemo\ExceptionDemo.csproj", "{78B43C63-1E4C-4520-8381-7571B5B20F5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -255,6 +259,14 @@ Global
 		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D1349500-9F17-4C9A-A77F-2678DC85D86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D30DBE-293F-45D0-9A4A-63549C66DAF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D30DBE-293F-45D0-9A4A-63549C66DAF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D30DBE-293F-45D0-9A4A-63549C66DAF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D30DBE-293F-45D0-9A4A-63549C66DAF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B43C63-1E4C-4520-8381-7571B5B20F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B43C63-1E4C-4520-8381-7571B5B20F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B43C63-1E4C-4520-8381-7571B5B20F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B43C63-1E4C-4520-8381-7571B5B20F5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
