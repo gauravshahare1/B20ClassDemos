@@ -1,5 +1,6 @@
 ﻿delegate void SampleDelegate(); // declare delegate
 delegate void SampleDelegateA(string s);
+delegate string PrintDelegate();
 
 class Program
 {
@@ -31,9 +32,42 @@ class Program
 
         //d();
 
-        SampleDelegateA d = Print4;
-        d("VHaaSh");
+        //SampleDelegateA d = Print4;
+        //d("VHaaSh");
 
+        //SampleDelegate d = Print1;
+        //d += Print2;
+        //d += Print3;
+
+        // d();
+
+        //Delegate[] delegates = d.GetInvocationList();
+
+        //for (int i = 0; i < delegates.Length; i++)
+        //{
+        //    try
+        //    {
+        //        delegates[i].DynamicInvoke();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine(ex.Message);
+        //    }
+        //}
+
+        PrintDelegate d = PrintA;
+        d += PrintB;
+        d += PrintC;
+
+        //string result = d();
+        //Console.WriteLine(result);
+
+        Delegate[] delegates = d.GetInvocationList();
+        for (int i = 0; i < delegates.Length; i++)
+        {
+            string result = delegates[i].DynamicInvoke().ToString();
+            Console.WriteLine(result);
+        }
 
         Console.ReadLine();
     }
@@ -44,6 +78,7 @@ class Program
     }
     static void Print2()
     {
+        throw new Exception("Genral Exception");
         Console.WriteLine("Print2() Called");
     }
     static void Print3()
@@ -54,6 +89,19 @@ class Program
     static void Print4(string s)
     {
         Console.WriteLine($"Print4(string s) : {s}");
+    }
+
+    static string PrintA()
+    {
+        return "PrintA";
+    }
+    static string PrintB()
+    {
+        return "PrintB";
+    }
+    static string PrintC()
+    {
+        return "PrintC";
     }
 }
 
