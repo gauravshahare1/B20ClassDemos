@@ -1,4 +1,4 @@
-﻿public delegate bool DiscountCriteria(Student student);
+﻿// public delegate bool DiscountCriteria(Student student);
 
 public class Institute
 {
@@ -36,7 +36,8 @@ public class Institute
         }
     }
 
-    public void DiscountedStudents(DiscountCriteria del)
+    // public void DiscountedStudents(DiscountCriteria del)
+    public void DiscountedStudents(Predicate<Student> del)
     {
         if (students != null && students.Length > 0)
         {
@@ -44,7 +45,7 @@ public class Institute
             for (int i = 0; i < students.Length; i++)
             {
                 // if (students[i].City == "Mumbai")
-                if(del(students[i]))
+                if (del(students[i]))
                 {
                     Console.WriteLine($"RollNumber : {students[i].RollNumber}" +
                     $" Name : {students[i].Name} City : {students[i].City}");
