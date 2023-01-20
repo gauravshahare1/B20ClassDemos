@@ -76,6 +76,9 @@ class Program
 
         cdac.DiscountedStudents(s => s.City.Equals("Pune"));
 
+        //cdac.DiscountedStudents(s => s.City.Equals("Pune") &&
+        //s.RollNumber % 2 == 0);
+
         Console.ReadLine();
     }
 

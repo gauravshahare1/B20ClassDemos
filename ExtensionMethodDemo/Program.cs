@@ -22,7 +22,6 @@
         result = input.ReverseInput();
         Console.WriteLine($"{input} : {result}");
 
-
         Console.ReadLine();
     }
 }
