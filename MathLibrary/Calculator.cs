@@ -1,5 +1,4 @@
-﻿
-namespace Library1;
+﻿namespace MathLibrary;
 public class Calculator
 {
     public int Add(int a, int b)

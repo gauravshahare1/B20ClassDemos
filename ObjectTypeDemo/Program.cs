@@ -1,5 +1,6 @@
 ﻿
-using VHaaShNamespace;
+using ObjectTypeDemo;
+
 class Program
 {
     static void Main()
@@ -96,7 +97,7 @@ class Program
     }
 }
 
-namespace VHaaShNamespace
+namespace ObjectTypeDemo
 {
     class Student
     {
@@ -122,14 +123,14 @@ namespace VHaaShNamespace
         public override bool Equals(object? obj)
         {
             Student s = (Student)obj;
-            return this.FirstName.Equals(s.FirstName) &&
-                this.LastName.Equals(s.LastName);
+            return FirstName.Equals(s.FirstName) &&
+                LastName.Equals(s.LastName);
         }
 
         public override int GetHashCode()
         {
-            return this.FirstName.GetHashCode() ^ 
-                this.LastName.GetHashCode();
+            return FirstName.GetHashCode() ^
+                LastName.GetHashCode();
         }
     }
 }
