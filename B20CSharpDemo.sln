@@ -117,11 +117,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ComplexTypeCollectionClasse
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TupleDemo", "TupleDemo\TupleDemo.csproj", "{8B0E8BAA-F6F3-41D3-B5E8-35976130507B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyLoadingDemo", "LazyLoadingDemo\LazyLoadingDemo.csproj", "{6D2D03CA-D2B8-4F37-B267-38081B1013C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyLoadingDemo", "LazyLoadingDemo\LazyLoadingDemo.csproj", "{6D2D03CA-D2B8-4F37-B267-38081B1013C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectionDemo", "ReflectionDemo\ReflectionDemo.csproj", "{311244E3-792E-4553-8325-7F9E3EA83C3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReflectionDemo", "ReflectionDemo\ReflectionDemo.csproj", "{311244E3-792E-4553-8325-7F9E3EA83C3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldKeywordDemo", "YieldKeywordDemo\YieldKeywordDemo.csproj", "{F47365CF-F941-40A9-8482-3CED2FDC7CE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YieldKeywordDemo", "YieldKeywordDemo\YieldKeywordDemo.csproj", "{F47365CF-F941-40A9-8482-3CED2FDC7CE7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeDemo", "AttributeDemo\AttributeDemo.csproj", "{41FE8D1E-F732-4319-A389-E3E1B254928A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "structKeywordDemo", "structKeywordDemo\structKeywordDemo.csproj", "{498037E4-FCEA-4DA2-A405-25DF01690CD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{267E369D-3CC7-4770-924F-04CAEB7D30BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonClassDemo", "SingletonClassDemo\SingletonClassDemo.csproj", "{43DBE465-B2A3-4D35-87BF-D6E61CDC0868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -369,6 +377,22 @@ Global
 		{F47365CF-F941-40A9-8482-3CED2FDC7CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F47365CF-F941-40A9-8482-3CED2FDC7CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F47365CF-F941-40A9-8482-3CED2FDC7CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41FE8D1E-F732-4319-A389-E3E1B254928A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41FE8D1E-F732-4319-A389-E3E1B254928A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41FE8D1E-F732-4319-A389-E3E1B254928A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41FE8D1E-F732-4319-A389-E3E1B254928A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{498037E4-FCEA-4DA2-A405-25DF01690CD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{498037E4-FCEA-4DA2-A405-25DF01690CD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{498037E4-FCEA-4DA2-A405-25DF01690CD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{498037E4-FCEA-4DA2-A405-25DF01690CD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{267E369D-3CC7-4770-924F-04CAEB7D30BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267E369D-3CC7-4770-924F-04CAEB7D30BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267E369D-3CC7-4770-924F-04CAEB7D30BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267E369D-3CC7-4770-924F-04CAEB7D30BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DBE465-B2A3-4D35-87BF-D6E61CDC0868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DBE465-B2A3-4D35-87BF-D6E61CDC0868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DBE465-B2A3-4D35-87BF-D6E61CDC0868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DBE465-B2A3-4D35-87BF-D6E61CDC0868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
